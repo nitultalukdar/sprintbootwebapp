@@ -29,7 +29,7 @@ pipeline {
        {
       steps
       {
-       sh 'java -jar target/my-app-1.0-SNAPSHOT.jar'
+       sh 'java -jar target/sprintbootwebapp-0.0.1-SNAPSHOT.jar'
       }
       }
      }
