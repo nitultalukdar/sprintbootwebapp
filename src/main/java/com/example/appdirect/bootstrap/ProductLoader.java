@@ -30,7 +30,7 @@ public class ProductLoader implements ApplicationListener<ContextRefreshedEvent>
 		final Product cup = new Product();
 		cup.setDescription("Bone China Cup");
 		cup.setProductId("4642222111");
-		cup.setPrice(new BigDecimal("5.99"));
+		cup.setPrice(new BigDecimal("4.99"));
 		productRepository.save(cup);
 		
 		logger.info("Saved Cup. Id -" + cup.getId());
